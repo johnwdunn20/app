@@ -1,6 +1,7 @@
 import React from "react";
 
 const Nav = () => {
+  // Nav from daisyUI
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
