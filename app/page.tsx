@@ -4,7 +4,7 @@ import { createClient } from "@/utils/supabase/server";
 import ConnectSupabaseSteps from "@/components/tutorial/ConnectSupabaseSteps";
 import SignUpUserSteps from "@/components/tutorial/SignUpUserSteps";
 import Header from "@/components/Header";
-import NavBar from "@/components/Nav";
+import NavBar from "@/components/nav/Nav";
 
 export default async function Index() {
   const canInitSupabaseClient = () => {
